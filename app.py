@@ -57,7 +57,7 @@ st.write("Enter the features to get predictions:")
 
 # Input fields with limits
 water_outlet_temp = st.number_input('Water Outlet Temperature', min_value=76.9, max_value=173.0, format="%.1f")
-noise_db = st.number_input('Noise DB', min_value=1400, max_value=19500, format="%d")
+noise_db = st.number_input('Noise DB', min_value=0, max_value=19500, format="%d")
 water_flow = st.number_input('Water Flow', min_value=13.2, max_value=93.5, format="%.1f")
 
 # Button to make predictions
